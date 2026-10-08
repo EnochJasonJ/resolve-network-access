@@ -684,14 +684,18 @@
 
             padding: 35px 24px 45px;
 
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             align-items: center;
-            justify-content: space-between;
 
             color: #656571;
             font-size: 12px;
 
             border-top: 1px solid rgba(255,255,255,.06);
+        }
+
+        .footer-credit {
+            text-align: center;
         }
 
         /* =========================================================
@@ -1121,6 +1125,14 @@
 
         <div>
             Crafted with precision.
+        </div>
+        <div class="footer-credit">
+            <div>
+                Built by
+            </div>
+            <div>
+                Enoch Jason J
+            </div>
         </div>
 
     </footer>
